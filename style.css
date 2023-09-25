@@ -1,1 +1,152 @@
 @charset "UFT-8";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(cequoia.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 130%;
+    font-size: 1.6rem;
+    height: 100%;
+    width: 100%;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 10%;
+    background-color: #516640;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+header > img{
+    width: 4%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+header > a 
+{
+    text-decoration: none;
+    color: #f1e7e3;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-left: 2%;
+}
+
+body main {
+    background-color: #f1e7e3;
+    width: 80%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+    body > main > div.natureza {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    body > main > div.natureza > img {
+        text-align: center;
+        width: 27%;
+        margin-bottom: 5%;
+    }   
+
+    body > main > div.natureza  > p {
+        max-width: 90%;
+        font-size: 1.5rem;
+        text-align: justify;
+        font-weight: 400;
+      }
+
+  body > main > div.natureza  > h2 {
+    font-weight: 700;
+    position: relative;
+    left: -40%;
+  }
+
+  body > main > div.natureza > h2#alimentacao {
+    font-weight: 700;
+    position: relative;
+    left: -38%;
+  }
+
+
+  body > main > div.fisiologia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+body > main > div.fisiologia > img {
+    text-align: center;
+    width: 27%;
+    margin-bottom: 5%;
+}   
+
+body > main > div.fisiologia  > p {
+    max-width: 90%;
+    font-size: 1.5rem;
+    text-align: justify;
+    font-weight: 400;
+  }
+
+body > main > div.fisiologia  > h2 {
+font-weight: 700;
+position: relative;
+left: -40%;
+}  
+
+body > main > div.curiosidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+body > main > div.curiosidades > img {
+    text-align: center;
+    width: 27%;
+    margin-bottom: 5%;
+}   
+
+body > main > div.curiosidades  > p {
+    max-width: 90%;
+    font-size: 1.5rem;
+    text-align: justify;
+    font-weight: 400;
+  }
+
+body > main > div.curiosidades  > h2 {
+font-weight: 700;
+position: relative;
+left: -40%;
+}  
+
