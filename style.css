@@ -279,3 +279,23 @@ body > main > div#curiosidades > div#last-row > div#lama{
   body > main > div#curiosidades > div#last-row > div#lama > p{
     margin-top: 2%;
     }
+
+
+  footer {
+    background-color: #516640;
+    width: 100%;
+    color: #f1e7e3;
+    flex-direction: row;
+  }
+
+  body > footer > div#grupo > div#grupo-left {
+    max-width: fit-content;
+    margin-top: 5%;
+    margin-left: 20%;
+  }
+
+    body > footer > div#grupo > div#grupo-right {
+      margin-top: 5%;
+      margin-left: 60%;
+      margin-bottom: 5%;
+    }
