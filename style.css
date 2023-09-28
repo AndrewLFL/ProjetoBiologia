@@ -672,7 +672,7 @@ body > main > div#curiosidades > div#last-row > div#lama{
 
     }
 
-    @media screen and (min-width: 456px) and (max-width: 850px)
+    @media screen and (min-width: 456px) and (max-width: 1000px)
     {
       header
       {
