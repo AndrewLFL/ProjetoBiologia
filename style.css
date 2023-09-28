@@ -366,7 +366,7 @@ body > main > div#curiosidades > div#last-row > div#lama{
       margin-bottom: 5%;
     }
 
-    @media screen and (max-width: 425px) 
+    @media screen and (max-width: 456px) 
     {
       menu{
         padding-bottom: 5%;
@@ -672,7 +672,7 @@ body > main > div#curiosidades > div#last-row > div#lama{
 
     }
 
-    @media screen and (min-width: 426px) and (max-width: 830px)
+    @media screen and (min-width: 456px) and (max-width: 850px)
     {
       header
       {
